@@ -1,16 +1,19 @@
-# Bachelorarbeit-Code
-This is the Python-Code for my Bachelors Thesis.
+# Sun-Sensor Simulator
+This repository contains the code for my Bachelors thesis
 
 # General-Setup
 ```
-git clone --recurse-submodules  https://github.com/kenscl/Bachelorarbeit-Code.git sun-sensor
-cd sun-sensor
-python3 -m venv python/.venv 
-source python/.venv/bin/activate
-pip install -r python/requirements.txt
-cmake -S sun-sensor-simulator/ -B sun-sensor-simulator/build
-cmake --build sun-sensor-simulator/build
+git clone --recurse-submodules  https://github.com/kenscl/Sun-Sensor-Calibration.git sun-sensor
+mkdir sun-sensor/sun-sensor-simulator/build
+cd sun-sensor/sun-sensor-simulator/build
+cmake ..
+make -j 8
 ```
+
+# Executing the code
+There are two compilation targets:
+- sun-sensor, execute with `./sun-sensor`
+- alignment, execute with `./alignment`
 
 # Error handling 
 You might encounter issues with matplotlib-cpp.
