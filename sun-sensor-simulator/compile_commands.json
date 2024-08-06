@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/ken/uni/bachelorarbeit/code/sun-sensor-simulator/matplotlib-cpp",
+      "-I/usr/include/python3.12",
+      "-I/usr/lib/python3.12/site-packages/numpy/core/include",
+      "-std=gnu++11",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/sun-sensor-simulator.dir/main.cpp.o",
+      "/home/ken/uni/bachelorarbeit/code/sun-sensor-simulator/main.cpp"
+    ],
+    "directory": "/home/ken/uni/bachelorarbeit/code/sun-sensor-simulator/build",
+    "file": "/home/ken/uni/bachelorarbeit/code/sun-sensor-simulator/main.cpp",
+    "output": "/home/ken/uni/bachelorarbeit/code/sun-sensor-simulator/build/CMakeFiles/sun-sensor-simulator.dir/main.cpp.o"
+  }
+]
